@@ -28,13 +28,13 @@ public class Invoice {
                 "------------------");
         System.out.printf("Shirt \t\t   %d \t\t  %d \t  %d \n", orderedShirts, priceOfShirt, costOfShirts);
         System.out.printf("Trouser \t   %d \t\t  %d \t  %d \n", orderedTrousers, priceOfTrouser, costOfTrousers);
-        System.out.printf("Discount \t \t\t \t\t\t  %.2f \n", discount);
+        System.out.printf("Discount \t \t\t \t  %.2f \n", discount);
         System.out.println("------------------------------------------" +
                 "------------------");
-        System.out.printf("Net Total \t   \t\t  \t\t\t  %.2f \n", netPay);
+        System.out.printf("Net Total \t   \t\t  \t  %.2f \n", netPay);
         System.out.println("------------------------------------------" +
                 "------------------");
-        System.out.printf("Points Earned \t\t\t\t\t  %d \n", point);
+        System.out.printf("Points Earned \t\t\t\t  %d \n", point);
         System.out.println("Thank you!\n");
     }
 }
